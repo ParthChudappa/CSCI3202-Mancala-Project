@@ -186,7 +186,7 @@ class Mancala:
         return a or b
 
  
-def randPlayeTest(numGames=100, seed=67):
+def randPlayeTest(numGames=100, seed=1400):
 
     random.seed(seed)
     p1Wins = 0
